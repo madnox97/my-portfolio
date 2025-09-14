@@ -24,7 +24,7 @@ import {
   Quote,
   ExternalLink,
 } from "lucide-react";
-import { getVideoProjectById, getYouTubeEmbedUrl } from "@/lib/helper";
+import { getVideoProjectById, getYouTubeEmbedUrl, getYouTubeThumbnailUrl } from "@/lib/helper";
 
 export default function ProjectPage() {
   const params = useParams();
@@ -111,7 +111,7 @@ export default function ProjectPage() {
               ) : (
                 <div className="relative w-full h-full">
                   <Image
-                    src={project.cover_image}
+                    src={project.video_type === "local" ? project.cover_image : (getYouTubeThumbnailUrl(project.video_link) || project.cover_image)}
                     alt={project.video_title}
                     fill
                     className="object-cover"
