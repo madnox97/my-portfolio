@@ -12,6 +12,7 @@ import { Play, Clock, User, ArrowRight, Filter, Loader2 } from "lucide-react";
 import {
   getVideoProjectsByCategory,
   getVideoCategoriesWithCountIncludingAll,
+  getYouTubeThumbnailUrl,
 } from "@/lib/helper";
 import type { VideoProject } from "@/types/videos";
 
@@ -168,7 +169,7 @@ export default function HomePage() {
                     <div className="space-y-4 h-full flex flex-col">
                       <div className="relative overflow-hidden rounded-lg">
                         <Image
-                          src={project.video_type === "local" ? project.cover_image : `https://img.youtube.com/vi/${project.cover_image}/maxresdefault.jpg`}
+                          src={project.video_type === "local" ? project.cover_image : (getYouTubeThumbnailUrl(project.video_link) || project.cover_image)}
                           alt={project.video_title}
                           width={400}
                           height={225}
