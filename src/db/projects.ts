@@ -4,7 +4,7 @@ export const allVideoProjects: VideoProject[] = [
   {
     id: "local-video-1",
     video_title: "Migrate2ai campaign video",
-    video_description: `Sleek presentation of Website interface with gesture-based interactions and animations.`,
+    video_description: `A polished website interface featuring smooth animations and intuitive gesture-based navigation for an immersive user experience.`,
     tags: ["Resume Tips", "FAANG Career", "Job Preparation", "Career Advice"],
     cover_image: "/Saas/thumbnails/migrate.png",
     publish_date: "2025-09-25",
