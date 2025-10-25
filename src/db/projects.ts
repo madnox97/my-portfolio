@@ -6,7 +6,7 @@ export const allVideoProjects: VideoProject[] = [
     video_title: "Shoply promo video",
     video_description: `Dynamic promotional video showcasing Shoply's e-commerce platform with engaging animations and compelling product demonstrations.`,
     tags: ["E-commerce", "Promo Video", "Product Demo", "Brand Marketing"],
-    cover_image: "/Saas/thumbnails/migrate.png",
+    cover_image: "/Saas/thumbnails/10.png",
     publish_date: "2025-10-25",
     client_name: "Shoply",
     client_image: "/Saas/client.png",
