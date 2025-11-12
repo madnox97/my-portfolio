@@ -3,10 +3,27 @@ import { VideoProject } from "@/types/videos";
 export const allVideoProjects: VideoProject[] = [
   {
     id: "local-video-1",
+    video_title: "Steve.ai explainer video",
+    video_description: `A captivating explainer video for Shoply, highlighting key e-commerce features with vibrant motion graphics and user-friendly storytelling.`,
+    tags: ["E-commerce", "Promo Video", "Product Demo", "Brand Marketing"],
+    cover_image: "/Saas/thumbnails/11.png",
+    publish_date: "2025-11-22",
+    client_name: "Shoply",
+    client_image: "/Saas/client.png",
+    client_feedback: "Crisp edits and engaging pacing—exactly what we envisioned for this launch.",
+    video_link: "https://youtu.be/er1O_TXZ-iE",
+    video_type: "youtube",
+    project_images: [],
+    category: ["Motion Graphics", "Web Animation"],
+    duration: "0:40",
+    software_used: ["After Effects", "Premiere Pro","adobe illustrator"],
+  },
+  {
+    id: "local-video-2",
     video_title: "Shoply promo video",
     video_description: `Dynamic promotional video showcasing Shoply's e-commerce platform with engaging animations and compelling product demonstrations.`,
     tags: ["E-commerce", "Promo Video", "Product Demo", "Brand Marketing"],
-    cover_image: "/Saas/thumbnails/10.png",
+    cover_image: "/Saas/thumbnails/migrate.png",
     publish_date: "2025-10-25",
     client_name: "Shoply",
     client_image: "/Saas/client.png",
@@ -19,7 +36,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro","adobe illustrator"],
   },
   {
-    id: "local-video-2",
+    id: "local-video-3",
     video_title: "Migrate2ai campaign video",
     video_description: `Sleek presentation of Website interface with gesture-based interactions and animations.`,
     tags: ["FAANG Career", "Job Preparation", "Career Advice"],
@@ -36,7 +53,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-3",
+    id: "local-video-4",
     video_title: "Website Showcase",
     video_description: `Sleek presentation of Website interface with gesture-based interactions and animations.`,
     tags: ["Resume Tips", "FAANG Career", "Job Preparation", "Career Advice"],
@@ -53,7 +70,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-4",
+    id: "local-video-5",
     video_title: "Sales Dashboard Promo",
     video_description:
       "product demo showcasing key analytics features and user workflow automation.",
@@ -71,7 +88,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-5",
+    id: "local-video-6",
     video_title: "Website Intro",
     video_description: `Comprehensive brand identity animation featuring logo reveals, color schemes, and brand elements with modern motion design principles`,
     tags: ["Web Animation", "UI/UX", "Motion Graphics", "Landing Page"],
@@ -88,7 +105,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-6",
+    id: "local-video-7",
     video_title: "Landing Page Animation",
     video_description: `Dynamic landing page animation showcasing modern web design principles with smooth transitions and engaging visual effects.`,
     tags: ["Web Animation", "UI/UX", "Motion Graphics", "Landing Page"],
@@ -105,7 +122,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-7",
+    id: "local-video-8",
     video_title: "The Rise,Fall and Legacy of Napoleon Bonaparte",
     video_description: `Explore the fascinating journey of Napoleon Bonaparte, one of history's most influential leaders.`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -122,7 +139,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-8",
+    id: "local-video-9",
     video_title: "THE GREAT FLOOD: THE UNTOLD STORY OF NOAH'S ARK",
     video_description: `Explore the fascinating journey of Napoleon Bonaparte, one of history's most influential leaders.`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -139,7 +156,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-9",
+    id: "local-video-10",
     video_title: "Product Showcase Video",
     video_description: `Professional product showcase highlighting key features and benefits with compelling visual storytelling and smooth motion graphics.`,
     tags: ["Product Video", "Showcase", "Motion Graphics", "Marketing"],
@@ -156,7 +173,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Davinci Resolve"],
   },
   {
-    id: "local-video-10",
+    id: "local-video-11",
     video_title: "Brand Identity Animation",
     video_description: `Comprehensive brand identity animation featuring logo reveals, color schemes, and brand elements with modern motion design principles.`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -173,7 +190,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-11",
+    id: "local-video-12",
     video_title: "AI labs promo video",
     video_description: `From smart algorithms to real-world AI solutions, we're turning ideas into innovation. Join us and experience the power of AI shaping tomorrow`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -190,7 +207,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-12",
+    id: "local-video-13",
     video_title: "Dodo Payments Beta version launch video",
     video_description: `From smart algorithms to real-world AI solutions, we're turning ideas into innovation. Join us and experience the power of AI shaping tomorrow`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -207,7 +224,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-13",
+    id: "local-video-14",
     video_title: "Konster launch video",
     video_description: `Konster is your bridge between customers and constructors! This video highlights how the Konster app makes finding trusted construction services easy and efficient.`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -224,7 +241,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-14",
+    id: "local-video-15",
     video_title: "Rapido Hook video",
     video_description: `Need to zip through traffic in minutes? 🚀 Rapido gets you moving fast, easy, and safe! Your ride, your way—anytime, anywhere.`,
     tags: ["Brand Identity", "Logo Animation", "Motion Graphics", "Branding"],
@@ -241,7 +258,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-15",
+    id: "local-video-16",
     video_title: "Social Media Short Form Masterpiece",
     video_description: `Revolutionary short-form content designed for maximum engagement across all social media platforms with cutting-edge visual effects and compelling storytelling.`,
     tags: ["Short Form", "Social Media", "Visual Effects", "Engagement"],
@@ -258,7 +275,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-16",
+    id: "local-video-17",
     video_title: "Short Form Video 2",
     video_description: `Engaging short-form content designed for social media platforms with quick visual impact and compelling storytelling.`,
     tags: ["Short Form", "Social Media", "Motion Graphics", "Digital Marketing"],
@@ -275,7 +292,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-17",
+    id: "local-video-18",
     video_title: "Short Form Video 3",
     video_description: `Dynamic short-form animation optimized for mobile viewing with engaging visual elements and smooth transitions.`,
     tags: ["Short Form", "Mobile First", "Animation", "Social Media"],
@@ -292,7 +309,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Davinci Resolve"],
   },
   {
-    id: "local-video-16",
+    id: "local-video-17",
     video_title: "Short Form Video 2",
     video_description: `Engaging short-form content designed for social media platforms with quick visual impact and compelling storytelling.`,
     tags: ["Short Form", "Social Media", "Motion Graphics", "Digital Marketing"],
@@ -309,7 +326,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-18",
+    id: "local-video-19",
     video_title: "Short Form Video 4",
     video_description: `Creative short-form video with modern design aesthetics and engaging motion graphics for brand awareness.`,
     tags: ["Short Form", "Brand Awareness", "Motion Graphics", "Modern Design"],
@@ -326,7 +343,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-19",
+    id: "local-video-20",
     video_title: "Short Form Video 5",
     video_description: `High-impact short-form content featuring dynamic animations and compelling visual storytelling for maximum engagement.`,
     tags: ["Short Form", "High Impact", "Animation", "Engagement"],
@@ -343,7 +360,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Premiere Pro"],
   },
   {
-    id: "local-video-20",
+    id: "local-video-21",
     video_title: "Short Form Video 6",
     video_description: `Innovative short-form video with cutting-edge visual effects and modern motion design principles.`,
     tags: ["Short Form", "Innovation", "Visual Effects", "Modern Design"],
@@ -360,7 +377,7 @@ export const allVideoProjects: VideoProject[] = [
     software_used: ["After Effects", "Davinci Resolve"],
   },
   {
-    id: "local-video-21",
+    id: "local-video-22",
     video_title: "Short Form Video 8",
     video_description: `Creative short-form masterpiece combining artistic vision with technical excellence for maximum visual impact.`,
     tags: ["Short Form", "Artistic", "Technical Excellence", "Visual Impact"],
