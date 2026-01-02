@@ -6,7 +6,7 @@ export const allVideoProjects: VideoProject[] = [
     video_title: "Merry Christmas Wishes from Steve",
     video_description: `Heartwarming Christmas greeting video featuring Steve AI delivering festive wishes with cheerful animations and holiday-themed visual effects.`,
     tags: ["Resume Tips", "FAANG Career", "Job Preparation", "Career Advice"],
-    cover_image: "/Saas/thumbnails/1.png",
+    cover_image: "/Saas/thumbnails/20.png",
     publish_date: "2024-08-04",
     client_name: "Creative Script",
     client_image: "/Saas/cs.png",
