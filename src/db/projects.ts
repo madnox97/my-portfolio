@@ -12,7 +12,7 @@ export const allVideoProjects: VideoProject[] = [
     client_image: "/Saas/DM.png",
     client_feedback: "The website showcase exceeded our expectations. The smooth animations and interactive elements perfectly captured our brand's modern aesthetic.",
     video_link: "https://youtube.com/shorts/5n-ONldZ8jY?feature=share",
-    video_type: "local",
+    video_type: "youtube",
     project_images: [],
     category: ["Motion Graphics", "Web Animation"],
     duration: "0:51",
